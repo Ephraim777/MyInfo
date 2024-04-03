@@ -1,4 +1,4 @@
-<img src="myphoto.JPG" width="600" height="800">
+<img src="myphoto.JPG" width="100" height="800">
 
 <font color = "green" > ФИО: Ершов Никита Романович </font>
 
