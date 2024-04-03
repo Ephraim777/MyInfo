@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,23 +12,22 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            flex-direction: column; /* добавим это, чтобы текст был под изображением */
         }
         img {
-            max-width: 100%;
+            max-width: 30%;
             max-height: 100%;
         }
     </style>
 </head>
 <body>
     <img src="myphoto.JPG" alt="Описание изображения">
+    <font color="green">
+        <p>ФИО: Ершов Никита Романович</p>
+        <p>Возраст: 20 полных лет</p>
+        <p>Местоположение: Московская область (г.Красноармейск)</p>
+        <p>Рост: 177 см</p>
+        <p>Профессия: Начинающий разработчик C++ (QtCreator)</p>
+    </font>
 </body>
 </html>
-### <font color = "green" > ФИО: Ершов Никита Романович </font>
-
-### <font color = "green" > Возраст: 20 полных лет </font>
-
- ### <font color = "green" > Местоположение: Московская область (г.Красноармейск) </font>
-
- ### <font color = "green" > Рост : 177 см </font>
-
- ### <font color = "green" > Профессия: Начинающий разработчик C++ (QtCreator) </font>
